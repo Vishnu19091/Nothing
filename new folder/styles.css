@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   font-family: Arial, Helvetica, sans-serif;
   backdrop-filter: blur(100px);
@@ -76,3 +77,83 @@ input[type="password"]:focus {
     width: 100%;
   }
 }
+=======
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  backdrop-filter: blur(100px);
+}
+.grad1 {
+  background: #ff4e50;
+  background: -webkit-linear-gradient(to bottom right, #d6e5ff, #9e6fab);
+  background: linear-gradient(to left, #88b4ff, #e792ff);
+}
+.container {
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px ;
+  background: linear-gradient(to left, #72a6ff, #e884ff);
+}
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  background: #ececec;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: #ddd;
+  border: 1px solid rgb(153, 255, 0);
+  outline: none;
+}
+.glbtn,
+.fbbtn {
+  background-color: rgb(0, 0, 206);
+  color: rgb(255, 255, 255);
+  padding: 16px 20px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: medium;
+  border: 1px;
+  text-align: center;
+  border-radius: 10px;
+  border-color: none;
+  border-style: solid;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.glbtn:hover,
+.fbbtn:hover {
+  opacity: 1;
+}
+.btn {
+  background-color: #4caf50;
+  color: white;
+  font-size: medium;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+@media screen and (max-width: 300px) {
+  .container {
+    width: 100%;
+  }
+}
+>>>>>>> origin/main
