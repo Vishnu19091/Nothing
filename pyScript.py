@@ -8,6 +8,6 @@ genai.configure(api_key = gemini_key)
 
 model = genai.GenerativeModel('gemini-1.0-pro')
 
-response = model.generate_content("can you create images based on text?")
+response = model.generate_content("")
 
 print(response.text)
