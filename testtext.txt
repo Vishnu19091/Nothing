@@ -2,3 +2,4 @@ Just Learning Git & GitHub.
 
 
 This Branch can be used to upload and modify project files.
+Branch was merged and deleted successfully.
